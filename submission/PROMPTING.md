@@ -61,7 +61,7 @@ This document details how AI tools were used intentionally and strategically thr
 - **AI Response**: Suggested label rotation, `AutoDateLocator`, and `DateFormatter` for improved readability, with a code example.
 
 ### Example 9: Advanced Graph Styling in Matplotlib
-- **Prompt**: "How can I use matplotlib to create a better styled graph like: [ASCII art example provided by user]?"
+- **Prompt**: "How can I use matplotlib to create a better styled graph like: [ASCII art example provided by user](../ai-conversations/03-matplotlib-visualizations.txt)?"
 - **AI Response**: Outlined techniques like subplots, `gridspec`, custom tick formatting, annotations for icons/wind, background shading, and provided a comprehensive Python code example using `matplotlib.dates` and `numpy` to achieve a similar style. Suggested `plotext` for terminal-based plots.
 
 ---
@@ -98,8 +98,12 @@ A full prompting journey using the six-step methodology is demonstrated across t
 
 ## 7. AI Conversation Log Files
 
-- All significant AI conversations are saved in the `ai-conversations/` folder.
-- Each file documents the prompt, AI response, and resulting code changes or decisions.
+- All significant AI conversations are saved in the `ai-conversations/` folder. These include:
+  - `01-api-usage-data-handling.txt`: Covers API query parameters, JSON to Python dictionary conversion, and debugging API limitations.
+  - `02-env-input-handling.txt`: Details secure API key storage, user input with defaults, and debugging environment variable loading.
+  - `03-matplotlib-visualizations.txt`: Focuses on creating bar graphs, handling X-axis label overlaps, and advanced graph styling in Matplotlib.
+  - `04-readme-submission-updates.txt`: Logs the interactions related to updating documentation files like README.md, PROMPTING.md, and the reflection file.
+  - `05-integrating-ai-with-data-processing.txt`: Documents conversations about integrating AI for natural language processing of weather queries and dynamically generating responses.
 
 ---
 
