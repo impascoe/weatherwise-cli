@@ -14,6 +14,27 @@ Welcome to the **WeatherWise Assignment Starter Template**! This repository help
 2. Rename your repository to something like `weatherwise-jane-doe`.
 3. Clone it and start developing in `starter_notebook.ipynb`.
 
+### Running the Notebook
+
+To run the `starter_notebook.ipynb`:
+
+1.  **Ensure you have a Python environment** with Jupyter Notebook or JupyterLab installed.
+2.  **Install project dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Set up your OpenWeatherMap API Key**: You will need to obtain a free API key from [OpenWeatherMap](https://openweathermap.org/appid) and add it to the notebook where prompted, or set it as an environment variable.
+4.  **Ensure Ollama is running (for AI features)**: If you plan to use the AI-assisted features within the notebook, make sure your local Ollama instance is running.
+5.  **Launch Jupyter**:
+    ```bash
+    jupyter notebook starter_notebook.ipynb
+    ```
+    Or, if you prefer JupyterLab:
+    ```bash
+    jupyter lab starter_notebook.ipynb
+    ```
+6.  Follow the instructions and execute the cells within the notebook.
+
 ---
 
 ## 📁 Folder Structure

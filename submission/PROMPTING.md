@@ -19,7 +19,7 @@ This document details how AI tools were used intentionally and strategically thr
 - **🔍 Debugging Prompts**: Troubleshot issues, e.g., why an API key was not being found in the environment, how to ensure `.env` files are loaded correctly, and how to handle overlapping x-axis labels in matplotlib.
 - **🖼️ Visual Refinement Prompts**: Iteratively improved graph appearance by asking for solutions to label crowding and requesting advanced styling to match a visual target (e.g., ASCII art representation).
 - **Challenge Prompts**: Questioned initial AI solutions, such as why the `days` parameter did not work as expected in the wttr.in API, and explored alternatives.
-- **Before/After Comparisons**: Documented code improvements resulting from targeted prompts (see `resources/before-after-example.md`).
+- **Before/After Comparisons**: Documented code improvements resulting from targeted prompts. These examples can be found in the AI conversation logs.
 
 ---
 
@@ -77,7 +77,7 @@ This document details how AI tools were used intentionally and strategically thr
 
 ## 5. Before/After Examples
 
-See `resources/before-after-example.md` for detailed before/after code comparisons and prompting strategies, including:
+Detailed before/after code comparisons and prompting strategies are documented within the AI conversation logs in the `ai-conversations/` folder. These logs show:
 - Initial basic function for weather retrieval
 - Prompting for improvements (error handling, validation, documentation)
 - Final robust function with all requested features
@@ -86,7 +86,7 @@ See `resources/before-after-example.md` for detailed before/after code compariso
 
 ## 6. Six-Step Methodology Example
 
-A full prompting journey using the six-step methodology is documented in `resources/sample-prompting-journey.md`, including:
+A full prompting journey using the six-step methodology is demonstrated across the AI conversation logs, including:
 - Restating the problem
 - Identifying input/output
 - Manual solution sketch
@@ -105,8 +105,8 @@ A full prompting journey using the six-step methodology is documented in `resour
 
 ## 8. Additional Prompting Examples
 
-- See `resources/prompt-by-method-step.md` for a guide to effective prompts for each programming foundation.
 - The notebook's "AI Prompting Log" section includes further prompt/response summaries.
+- The AI conversation logs in `ai-conversations/` provide numerous examples of prompts for various stages of development.
 
 ---
 
