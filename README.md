@@ -12,17 +12,17 @@ combining Python, weather APIs, data visualisation, and AI-assisted development.
 ### Running the Notebook
 
 To run the `starter_notebook.ipynb`:
-
-1. **Ensure you have a Python environment** with Jupyter Notebook or JupyterLab installed.
-2. **Install project dependencies**:
+1. **Ensure Ollama is running (for AI features)**: If you plan to use the AI-assisted features within the notebook, make
+   sure your local Ollama instance is running.
+2. **Ensure you have a Python environment** with Jupyter Notebook or JupyterLab installed.
+3. **Install project dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Set up your OpenWeatherMap API Key**: You will need to obtain a free API key
+4. **Set up your OpenWeatherMap API Key**: You will need to obtain a free API key
    from [OpenWeatherMap](https://openweathermap.org/appid) and add it to the notebook where prompted, or set it as an
    environment variable.
-4. **Ensure Ollama is running (for AI features)**: If you plan to use the AI-assisted features within the notebook, make
-   sure your local Ollama instance is running.
+
 5. **Launch Jupyter**:
    ```bash
    jupyter notebook starter_notebook.ipynb
