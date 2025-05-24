@@ -1,6 +1,6 @@
 ----------------------------------
 Tool: Copilot
-Date: 2025-05-24
+Date: 2025-05-04
 ----------------------------------
 
 Me: Is there a way to set the number of days when requesting a forecast?
